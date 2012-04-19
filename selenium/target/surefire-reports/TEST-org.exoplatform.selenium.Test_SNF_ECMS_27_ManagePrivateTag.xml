@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="78.472" errors="0" skipped="0" tests="1" name="org.exoplatform.selenium.Test_SNF_ECMS_27_ManagePrivateTag">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/hainh/java/jdk1.6/jre/lib/amd64"/>
+    <property name="java.vm.version" value="20.2-b06"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="selenium.timeout" value="90000"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="*"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/hainh/workspace/selenium/selenium"/>
+    <property name="java.runtime.version" value="1.6.0_27-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/hainh/workspace/selenium/selenium"/>
+    <property name="java.endorsed.dirs" value="/home/hainh/java/jdk1.6/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter2760599573014036086.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="selenium.host" value="localhost"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="selenium.browser" value="firefox"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/hainh/java/jdk1.6/jre/lib/amd64/server:/home/hainh/java/jdk1.6/jre/lib/amd64:/home/hainh/java/jdk1.6/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/hainh/workspace/selenium/selenium/target/test-classes:/home/hainh/workspace/selenium/selenium/target/classes:/home/hainh/java/exo-dependencies/repository/org/exoplatform/utils/selegen/selegen-core/0.9.2/selegen-core-0.9.2.jar:/home/hainh/java/exo-dependencies/repository/junit/junit/4.0/junit-4.0.jar:/home/hainh/java/exo-dependencies/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/home/hainh/java/exo-dependencies/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/client-drivers/selenium-java-client-driver/1.0.1/selenium-java-client-driver-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/server/selenium-server/1.0.1/selenium-server-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/server/selenium-server-coreless/1.0.1/selenium-server-coreless-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/apache/ant/ant/1.7.1/ant-1.7.1.jar:/home/hainh/java/exo-dependencies/repository/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar:/home/hainh/java/exo-dependencies/repository/jetty/org.mortbay.jetty/5.1.12/org.mortbay.jetty-5.1.12.jar:/home/hainh/java/exo-dependencies/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/home/hainh/java/exo-dependencies/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/home/hainh/java/exo-dependencies/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/home/hainh/java/exo-dependencies/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/core/selenium-core/1.0.1/selenium-core-1.0.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="selenium.speed" value="800"/>
+    <property name="os.version" value="3.0.0-12-generic"/>
+    <property name="user.home" value="/home/hainh"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hainh"/>
+    <property name="java.class.path" value="/home/hainh/workspace/selenium/selenium/target/test-classes:/home/hainh/workspace/selenium/selenium/target/classes:/home/hainh/java/exo-dependencies/repository/org/exoplatform/utils/selegen/selegen-core/0.9.2/selegen-core-0.9.2.jar:/home/hainh/java/exo-dependencies/repository/junit/junit/4.0/junit-4.0.jar:/home/hainh/java/exo-dependencies/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/home/hainh/java/exo-dependencies/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/client-drivers/selenium-java-client-driver/1.0.1/selenium-java-client-driver-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/server/selenium-server/1.0.1/selenium-server-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/server/selenium-server-coreless/1.0.1/selenium-server-coreless-1.0.1.jar:/home/hainh/java/exo-dependencies/repository/org/apache/ant/ant/1.7.1/ant-1.7.1.jar:/home/hainh/java/exo-dependencies/repository/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar:/home/hainh/java/exo-dependencies/repository/jetty/org.mortbay.jetty/5.1.12/org.mortbay.jetty-5.1.12.jar:/home/hainh/java/exo-dependencies/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/home/hainh/java/exo-dependencies/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/home/hainh/java/exo-dependencies/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/home/hainh/java/exo-dependencies/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/home/hainh/java/exo-dependencies/repository/org/seleniumhq/selenium/core/selenium-core/1.0.1/selenium-core-1.0.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/hainh/java/jdk1.6/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter2760599573014036086.jar /tmp/surefire6189079170229788499tmp /tmp/surefire2736288483574386189tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="/home/hainh/java/jdk1.6/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/home/hainh/java/jdk1.6/jre/lib/resources.jar:/home/hainh/java/jdk1.6/jre/lib/rt.jar:/home/hainh/java/jdk1.6/jre/lib/sunrsasign.jar:/home/hainh/java/jdk1.6/jre/lib/jsse.jar:/home/hainh/java/jdk1.6/jre/lib/jce.jar:/home/hainh/java/jdk1.6/jre/lib/charsets.jar:/home/hainh/java/jdk1.6/jre/lib/modules/jdk.boot.jar:/home/hainh/java/jdk1.6/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="selenium.host.port" value="8080"/>
+    <property name="localRepository" value="/home/hainh/java/exo-dependencies/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="selenium.port" value="8444"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="78.469" classname="org.exoplatform.selenium.Test_SNF_ECMS_27_ManagePrivateTag" name="testSNF_ECMS_27_ManagePrivateTag"/>
+</testsuite>
