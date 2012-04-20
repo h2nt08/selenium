@@ -128,7 +128,7 @@ PageBot.prototype.locateElementByValueRepeated = function(text, inDocument) {
 };
 
 //
-// User extensions from: file:/home/hainh/workspace/selenium/selenium/target/selenium/user-extension.js
+// User extensions from: file:/home/hainh/.jenkins/jobs/RunTest/workspace/selenium/target/selenium/user-extension.js
 //
 /***************************************************************************************************************/
 /** Exo User Extensions ***/
