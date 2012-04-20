@@ -1,681 +1,681 @@
-12:02:59,329 INFO  [org.openqa.selenium.server.SeleniumServer] Java: Sun Microsystems Inc. 20.2-b06
-12:02:59,330 INFO  [org.openqa.selenium.server.SeleniumServer] OS: Linux 3.0.0-12-generic amd64
-12:02:59,340 INFO  [org.openqa.selenium.server.SeleniumServer] v2.0 [a2], with Core v2.0 [a2]
-12:02:59,426 INFO  [org.openqa.selenium.server.SeleniumServer] RemoteWebDriver instances should connect to: http://192.168.1.111:8444/wd/hub
-12:02:59,427 INFO  [org.openqa.jetty.http.HttpServer] Version Jetty/5.1.x
-12:02:59,428 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-12:02:59,429 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/selenium-server,/selenium-server]
-12:02:59,429 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/,/]
-12:02:59,448 INFO  [org.openqa.jetty.util.Container] Started org.openqa.jetty.jetty.servlet.ServletHandler@34fbb7cb
-12:02:59,448 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/wd,/wd]
-12:02:59,452 INFO  [org.openqa.jetty.http.SocketListener] Started SocketListener on 0.0.0.0:8444
-12:02:59,452 INFO  [org.openqa.jetty.util.Container] Started org.openqa.jetty.jetty.Server@299209ea
-12:03:00,102 INFO  [org.openqa.jetty.util.Credential] Checking Resource aliases
-12:03:00,383 INFO  [org.openqa.jetty.util.Credential] Checking Resource aliases
-12:03:00,389 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
-12:03:00,392 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
-12:03:00,457 WARN  [org.openqa.selenium.server.browserlaunchers.locators.BrowserLocator] Caution: '/usr/lib/firefox-7.0.1/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
-12:03:00,463 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session bc0c4c8272d6455297a0ac23e4ca4b11 for http://localhost:8080/portal/, launching...
-12:03:00,498 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
+14:23:38,978 INFO  [org.openqa.selenium.server.SeleniumServer] Java: Sun Microsystems Inc. 20.2-b06
+14:23:38,978 INFO  [org.openqa.selenium.server.SeleniumServer] OS: Linux 3.0.0-12-generic amd64
+14:23:38,985 INFO  [org.openqa.selenium.server.SeleniumServer] v2.0 [a2], with Core v2.0 [a2]
+14:23:39,071 INFO  [org.openqa.selenium.server.SeleniumServer] RemoteWebDriver instances should connect to: http://192.168.1.111:8444/wd/hub
+14:23:39,073 INFO  [org.openqa.jetty.http.HttpServer] Version Jetty/5.1.x
+14:23:39,074 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+14:23:39,074 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/selenium-server,/selenium-server]
+14:23:39,074 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/,/]
+14:23:39,100 INFO  [org.openqa.jetty.util.Container] Started org.openqa.jetty.jetty.servlet.ServletHandler@4a8c1dd9
+14:23:39,100 INFO  [org.openqa.jetty.util.Container] Started HttpContext[/wd,/wd]
+14:23:39,105 INFO  [org.openqa.jetty.http.SocketListener] Started SocketListener on 0.0.0.0:8444
+14:23:39,105 INFO  [org.openqa.jetty.util.Container] Started org.openqa.jetty.jetty.Server@299209ea
+14:23:39,720 INFO  [org.openqa.jetty.util.Credential] Checking Resource aliases
+14:23:40,030 INFO  [org.openqa.jetty.util.Credential] Checking Resource aliases
+14:23:40,036 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
+14:23:40,039 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
+14:23:40,096 WARN  [org.openqa.selenium.server.browserlaunchers.locators.BrowserLocator] Caution: '/usr/lib/firefox-7.0.1/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+14:23:40,102 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session ff13aead93e642e19d293137cd740453 for http://localhost:8080/portal/, launching...
+14:23:40,136 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1679): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1679): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-12:03:03,704 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
-12:03:06,768 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,bc0c4c8272d6455297a0ac23e4ca4b11 on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:06,776 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:06,777 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:06,782 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:13,324 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:13,328 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:14,162 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:14,169 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:14,987 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:14,992 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:15,846 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:15,850 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:16,692 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:16,697 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:17,562 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:17,567 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:18,421 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:18,424 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:19,266 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:19,269 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:20,194 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:20,198 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:23,505 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:23,508 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:24,338 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:24,345 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:25,181 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:25,185 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:29,146 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:29,148 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:30,044 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:30,046 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:30,879 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:30,882 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:31,728 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:31,736 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:32,581 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:32,585 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title='acme '], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:33,418 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:33,423 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[//a[@title='acme '], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:34,325 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:34,328 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@class='ItemIcon WebDAV16x16Icon'], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:35,162 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:35,165 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@class='ItemIcon WebDAV16x16Icon'], ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:35,999 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:39,006 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:40,952 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:40,956 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:41,773 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:41,776 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:42,629 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:42,633 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:43,826 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:43,828 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:43,828 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
-12:03:43,868 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session bc0c4c8272d6455297a0ac23e4ca4b11
-12:03:43,896 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
-12:03:43,897 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
-12:03:43,897 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session 2f6e96c2812b47bdb49aba9432c63003 for http://localhost:8080/portal/, launching...
-12:03:43,962 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:5978): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:5978): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+14:23:43,405 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
+14:23:46,488 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,ff13aead93e642e19d293137cd740453 on session ff13aead93e642e19d293137cd740453
+14:23:46,497 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session ff13aead93e642e19d293137cd740453
+14:23:46,497 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:46,500 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session ff13aead93e642e19d293137cd740453
+14:23:53,159 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:53,163 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session ff13aead93e642e19d293137cd740453
+14:23:53,990 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:53,996 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session ff13aead93e642e19d293137cd740453
+14:23:54,823 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:23:54,828 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session ff13aead93e642e19d293137cd740453
+14:23:55,694 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:55,699 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session ff13aead93e642e19d293137cd740453
+14:23:56,538 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:23:56,544 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session ff13aead93e642e19d293137cd740453
+14:23:57,386 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:57,389 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session ff13aead93e642e19d293137cd740453
+14:23:58,234 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:23:58,238 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session ff13aead93e642e19d293137cd740453
+14:23:59,080 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:23:59,085 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session ff13aead93e642e19d293137cd740453
+14:24:00,007 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:00,012 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session ff13aead93e642e19d293137cd740453
+14:24:03,303 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:03,307 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session ff13aead93e642e19d293137cd740453
+14:24:04,132 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:04,137 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session ff13aead93e642e19d293137cd740453
+14:24:04,968 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:04,990 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session ff13aead93e642e19d293137cd740453
+14:24:08,804 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:08,807 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session ff13aead93e642e19d293137cd740453
+14:24:09,710 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:09,715 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session ff13aead93e642e19d293137cd740453
+14:24:10,556 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:10,560 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session ff13aead93e642e19d293137cd740453
+14:24:11,399 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:11,404 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session ff13aead93e642e19d293137cd740453
+14:24:12,242 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:12,245 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title='acme '], ] on session ff13aead93e642e19d293137cd740453
+14:24:13,078 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:13,083 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[//a[@title='acme '], ] on session ff13aead93e642e19d293137cd740453
+14:24:13,985 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:13,988 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@class='ItemIcon WebDAV16x16Icon'], ] on session ff13aead93e642e19d293137cd740453
+14:24:14,811 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:14,814 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@class='ItemIcon WebDAV16x16Icon'], ] on session ff13aead93e642e19d293137cd740453
+14:24:15,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:18,648 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session ff13aead93e642e19d293137cd740453
+14:24:20,590 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:20,594 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session ff13aead93e642e19d293137cd740453
+14:24:21,415 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session ff13aead93e642e19d293137cd740453
+14:24:21,420 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session ff13aead93e642e19d293137cd740453
+14:24:22,251 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:22,255 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session ff13aead93e642e19d293137cd740453
+14:24:23,539 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:23,542 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session ff13aead93e642e19d293137cd740453
+14:24:23,542 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
+14:24:23,576 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session ff13aead93e642e19d293137cd740453
+14:24:23,602 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
+14:24:23,603 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
+14:24:23,603 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session b41a477a36564dddb67f027bbec4e7a9 for http://localhost:8080/portal/, launching...
+14:24:23,641 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1832): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1832): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-12:03:47,279 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
-12:03:50,357 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,2f6e96c2812b47bdb49aba9432c63003 on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:50,360 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:50,360 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:50,362 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:52,400 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:52,402 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:53,225 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:53,230 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:54,114 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:54,118 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:55,154 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:55,157 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:55,994 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:55,998 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:56,842 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:56,846 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:57,675 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:57,679 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:58,512 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:58,516 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:59,404 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:03:59,410 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:00,504 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:00,508 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:01,330 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:01,337 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:02,169 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:02,172 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:03,701 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:03,704 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:04,537 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:04,541 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:05,368 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:05,372 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:06,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:06,232 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:07,070 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:07,073 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:07,904 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:07,907 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:08,752 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:08,756 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:10,634 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:10,638 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:11,479 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:11,482 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:13,029 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:13,034 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:13,877 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:13,882 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:14,781 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:14,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:15,627 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:15,630 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:16,465 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:16,469 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_28] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:17,338 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:17,343 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:18,176 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:18,181 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_28] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:19,010 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:19,014 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:19,848 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:19,854 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:20,685 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:20,688 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary in Test_SNF_ECMS_28] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:21,518 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:21,522 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:22,350 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:22,353 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:23,187 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:23,194 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:24,036 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:24,040 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Main content in Test_SNF_ECMS_28] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:24,868 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:24,871 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:25,701 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:25,706 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:26,607 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:26,612 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:27,506 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:30,512 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:31,368 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:31,370 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:32,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:32,229 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Tag, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:33,215 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:33,220 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Tag, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:34,072 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:34,074 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=names, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:34,908 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:34,911 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=names, Public] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:35,751 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:35,754 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[name=tagScopes, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:36,606 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:36,611 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: select[name=tagScopes, label=Public] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:37,468 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:37,472 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Add Tags, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:38,452 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:38,456 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Add Tags, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:39,322 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:39,324 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Close, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:40,376 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:40,379 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Close, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:41,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:41,247 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:42,084 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:42,087 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:42,939 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:42,942 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Edit Public Tags'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:43,777 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:43,782 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Edit Public Tags'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:44,638 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:44,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@title='Edit Tag'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:45,480 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:45,483 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@title='Edit Tag'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:46,337 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:46,340 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=tagName, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:47,168 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:47,173 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=tagName, Public_Edit] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:48,004 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:48,011 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:48,860 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:48,863 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:49,713 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:49,716 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@alt='RemoveTag'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:50,545 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:50,549 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@alt='RemoveTag'], ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:51,395 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:51,397 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getConfirmation[, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:52,222 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,Are you sure to delete this tag? on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:52,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a.CloseButton, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:53,060 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:53,064 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a.CloseButton, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:53,923 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:53,927 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:54,759 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:54,762 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:55,608 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:55,612 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_28, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:56,983 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:56,987 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_28, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:57,906 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:57,908 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:58,735 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:58,738 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:59,583 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:04:59,587 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:00,445 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:00,448 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:01,314 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:01,318 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_28, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:03,769 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:03,773 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_28, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:04,664 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:04,668 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:05,515 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:05,517 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:06,368 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:06,370 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:07,449 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:07,452 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:07,452 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
-12:05:07,476 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 2f6e96c2812b47bdb49aba9432c63003
-12:05:07,494 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
-12:05:07,494 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
-12:05:07,495 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session c18aa1bac5594194990f26bb70ed1714 for http://localhost:8080/portal/, launching...
-12:05:07,530 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6098): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6098): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+14:24:27,011 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
+14:24:30,131 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,b41a477a36564dddb67f027bbec4e7a9 on session b41a477a36564dddb67f027bbec4e7a9
+14:24:30,134 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:30,134 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:30,136 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:32,061 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:32,064 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:32,888 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:32,894 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:33,832 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:33,838 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:34,696 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:34,698 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:35,549 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:35,554 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:36,398 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:36,402 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:37,245 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:37,249 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:38,084 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:38,088 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:38,965 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:38,968 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:40,041 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:40,044 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:40,869 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:40,872 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:41,705 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:41,709 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:43,265 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:43,270 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:44,101 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:44,106 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:44,939 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:44,943 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:45,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:45,789 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:46,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:46,644 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:47,475 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:47,478 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:48,325 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:48,329 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:50,211 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:50,214 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:51,062 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:51,067 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:52,581 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:52,584 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:53,429 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:53,432 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:54,416 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:54,419 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:55,246 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:55,250 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:56,072 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:56,075 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_28] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:56,937 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:56,940 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:57,780 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:57,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_28] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:58,626 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:24:58,630 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:24:59,457 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:24:59,459 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:00,295 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:00,299 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary in Test_SNF_ECMS_28] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:01,138 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:01,143 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:01,982 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:01,986 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:02,824 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:02,827 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:03,658 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:03,662 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Main content in Test_SNF_ECMS_28] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:04,501 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:04,507 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:05,336 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:05,338 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:06,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:06,246 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:07,153 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:10,159 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:11,016 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:11,019 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:11,871 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:11,874 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Tag, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:12,848 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:12,852 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Tag, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:13,710 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:13,712 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=names, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:14,551 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:14,555 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=names, Public] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:15,394 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:15,400 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[name=tagScopes, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:16,239 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:16,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: select[name=tagScopes, label=Public] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:17,096 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:17,100 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Add Tags, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:18,089 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:18,093 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Add Tags, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:18,960 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:18,964 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Close, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:20,063 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:20,066 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Close, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:20,933 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:20,936 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:21,780 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:21,786 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:22,630 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:22,633 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Edit Public Tags'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:23,465 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:23,470 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Edit Public Tags'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:24,309 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:24,316 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@title='Edit Tag'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:25,151 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:25,155 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@title='Edit Tag'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:26,005 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:26,007 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=tagName, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:26,840 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:26,844 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=tagName, Public_Edit] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:27,680 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:27,682 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:28,522 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:28,526 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:29,378 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:29,381 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@alt='RemoveTag'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:30,221 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:30,226 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@alt='RemoveTag'], ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:31,072 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:31,076 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getConfirmation[, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:31,914 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,Are you sure to delete this tag? on session b41a477a36564dddb67f027bbec4e7a9
+14:25:31,919 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a.CloseButton, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:32,747 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:32,750 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a.CloseButton, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:33,623 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:33,625 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:34,455 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:34,460 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:35,317 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:35,320 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_28, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:36,726 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:36,728 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_28, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:37,639 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:37,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:38,480 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:38,485 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:39,330 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:39,333 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:40,178 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:40,181 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:41,039 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:41,042 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_28, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:43,480 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session b41a477a36564dddb67f027bbec4e7a9
+14:25:43,484 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_28, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:44,355 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session b41a477a36564dddb67f027bbec4e7a9
+14:25:44,361 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:45,207 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b41a477a36564dddb67f027bbec4e7a9
+14:25:45,210 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:46,055 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:46,058 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:47,192 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:47,196 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session b41a477a36564dddb67f027bbec4e7a9
+14:25:47,196 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
+14:25:47,213 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b41a477a36564dddb67f027bbec4e7a9
+14:25:47,226 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
+14:25:47,226 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
+14:25:47,227 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session 22c2aafc19004fda8151f12a7c10da9b for http://localhost:8080/portal/, launching...
+14:25:47,275 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:1959): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:1959): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-12:05:10,887 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
-12:05:14,320 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,c18aa1bac5594194990f26bb70ed1714 on session c18aa1bac5594194990f26bb70ed1714
-12:05:14,323 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:14,324 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:14,327 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:16,294 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:16,296 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:17,122 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:17,124 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:18,101 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:18,105 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:18,952 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:18,955 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:19,803 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:19,808 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session c18aa1bac5594194990f26bb70ed1714
-12:05:20,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:20,644 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session c18aa1bac5594194990f26bb70ed1714
-12:05:21,486 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:21,490 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:22,319 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:22,323 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:23,213 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:23,217 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:24,359 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:24,361 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:25,181 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:25,183 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:26,010 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:26,013 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:27,571 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:27,573 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:28,404 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:28,408 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:29,238 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:29,242 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:30,074 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:30,077 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:30,924 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:30,926 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:31,757 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:31,760 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:32,614 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:32,617 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:34,416 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:34,420 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:35,254 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:35,257 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:36,707 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:36,710 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:37,563 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:37,566 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:38,454 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:38,456 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:39,275 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:39,277 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:40,096 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:40,098 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_27] on session c18aa1bac5594194990f26bb70ed1714
-12:05:40,962 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:40,965 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:41,805 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:41,809 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_27] on session c18aa1bac5594194990f26bb70ed1714
-12:05:42,651 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:42,655 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:43,493 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:43,497 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:44,335 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:44,339 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary in Test_SNF_ECMS_27] on session c18aa1bac5594194990f26bb70ed1714
-12:05:45,206 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:45,210 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:46,036 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:46,038 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:46,865 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:46,870 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:47,707 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:47,710 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Main content in Test_SNF_ECMS_27] on session c18aa1bac5594194990f26bb70ed1714
-12:05:48,543 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:48,547 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:49,377 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:49,381 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:50,281 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:50,285 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:51,175 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:54,180 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:55,028 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:55,031 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:55,870 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:55,873 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Tag, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:56,720 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:56,724 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Tag, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:57,621 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:57,624 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=names, ] on session c18aa1bac5594194990f26bb70ed1714
-12:05:58,478 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:05:58,482 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=names, Private] on session c18aa1bac5594194990f26bb70ed1714
-12:05:59,343 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:05:59,347 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Add Tags, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:00,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:00,230 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Add Tags, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:01,120 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:01,123 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Close, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:02,225 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:02,228 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Close, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:03,104 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:03,108 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:03,940 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:03,943 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:04,783 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:04,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Edit Private Tags'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:05,609 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:05,611 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Edit Private Tags'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:06,470 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:06,472 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@title='Edit Tag'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:07,302 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:07,306 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@title='Edit Tag'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:08,149 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:08,151 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=tagName, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:09,002 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:09,007 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=tagName, Private_Edit] on session c18aa1bac5594194990f26bb70ed1714
-12:06:09,844 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:09,848 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:10,681 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:10,684 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:11,552 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:11,555 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@alt='RemoveTag'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:12,391 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:12,394 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@alt='RemoveTag'], ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:13,234 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:13,237 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getConfirmation[, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:14,077 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,Are you sure to delete this tag? on session c18aa1bac5594194990f26bb70ed1714
-12:06:14,082 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a.CloseButton, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:14,924 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:14,929 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a.CloseButton, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:15,773 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:15,775 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:16,600 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:16,604 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:17,454 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:17,457 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_27, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:18,873 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:18,876 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_27, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:19,796 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:19,798 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:20,638 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:20,642 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:21,487 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:21,489 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:22,332 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:22,335 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:23,192 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:23,195 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_27, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:25,552 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session c18aa1bac5594194990f26bb70ed1714
-12:06:25,555 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_27, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:26,447 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session c18aa1bac5594194990f26bb70ed1714
-12:06:26,450 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:27,420 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session c18aa1bac5594194990f26bb70ed1714
-12:06:27,423 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:28,269 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:28,272 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:29,362 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:29,364 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session c18aa1bac5594194990f26bb70ed1714
-12:06:29,364 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
-12:06:29,382 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session c18aa1bac5594194990f26bb70ed1714
-12:06:29,392 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
-12:06:29,392 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
-12:06:29,392 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session 6fff71782fde4a5cbd782bb76e66663b for http://localhost:8080/portal/, launching...
-12:06:29,406 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6210): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6210): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+14:25:50,590 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
+14:25:53,687 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,22c2aafc19004fda8151f12a7c10da9b on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:53,691 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:53,691 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:53,693 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:55,638 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:55,643 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:56,468 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:56,475 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:57,389 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:57,392 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:58,241 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:58,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:59,081 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:59,084 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:59,916 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:25:59,919 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:00,757 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:00,761 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:01,592 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:01,596 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:02,497 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:02,499 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:03,591 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:03,598 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:04,423 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:04,427 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:05,258 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:05,263 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:06,832 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:06,835 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:07,673 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:07,676 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:08,506 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:08,509 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:09,354 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:09,358 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:10,212 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:10,216 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:11,095 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:11,101 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:11,941 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:11,945 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:13,737 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:13,740 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:14,584 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:14,587 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:15,982 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:15,984 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:16,829 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:16,831 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:17,739 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:17,741 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:18,570 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:18,573 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:19,387 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:19,392 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_27] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:20,248 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:20,251 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:21,090 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:21,095 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_27] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:21,931 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:21,933 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:22,766 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:22,768 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:23,602 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:23,605 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary in Test_SNF_ECMS_27] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:24,437 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:24,439 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:25,269 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:25,273 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:26,172 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:26,175 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:27,004 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:27,006 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Main content in Test_SNF_ECMS_27] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:27,836 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:27,839 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:28,672 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:28,675 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:29,569 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:29,572 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:30,459 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:33,464 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:34,304 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:34,310 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:35,163 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:35,166 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Tag, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:36,003 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:36,005 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Tag, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:36,896 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:36,899 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=names, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:37,755 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:37,759 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=names, Private] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:38,623 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:38,627 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Add Tags, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:39,503 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:39,514 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Add Tags, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:40,398 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:40,401 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Close, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:41,451 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:41,453 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Close, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:42,314 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:42,317 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:43,146 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:43,149 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div[4]/div, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:43,986 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:43,989 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Edit Private Tags'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:44,815 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:44,819 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Edit Private Tags'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:45,660 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:45,665 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@title='Edit Tag'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:46,553 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:46,556 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@title='Edit Tag'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:47,403 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:47,407 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=tagName, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:48,239 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:48,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=tagName, Private_Edit] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:49,080 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:49,083 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:49,918 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:49,920 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:50,770 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:50,773 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//img[@alt='RemoveTag'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:51,602 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:51,605 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//img[@alt='RemoveTag'], ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:52,443 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:52,446 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getConfirmation[, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:53,278 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,Are you sure to delete this tag? on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:53,282 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a.CloseButton, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:54,116 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:54,119 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a.CloseButton, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:54,966 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:54,969 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:55,791 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:55,795 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UISideBar']/div/div/div[3]/div/div, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:56,656 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:56,659 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_27, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:58,084 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:58,087 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_27, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:58,998 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:59,000 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:59,832 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:26:59,834 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:00,698 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:00,700 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:01,549 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:01,552 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:02,411 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:02,414 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_27, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:04,782 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:04,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isTextPresent[link=Article_Test_SNF_ECMS_27, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:05,654 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,false on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:05,658 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:06,504 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:06,506 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:07,369 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:07,371 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:08,473 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:08,475 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:08,475 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
+14:27:08,491 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 22c2aafc19004fda8151f12a7c10da9b
+14:27:08,503 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: getNewBrowserSession[*firefox, http://localhost:8080/portal/, ] on session null
+14:27:08,503 INFO  [org.openqa.selenium.server.BrowserSessionFactory] creating new remote session
+14:27:08,503 INFO  [org.openqa.selenium.server.BrowserSessionFactory] Allocated session b9650a72157742ddaf76b0ecfa05b8c5 for http://localhost:8080/portal/, launching...
+14:27:08,516 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Preparing Firefox profile...
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
-
-
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
-
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
 
-(firefox-bin:2083): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(firefox-bin:6329): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
 
 
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
 
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
 
-(firefox-bin:2083): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
-12:06:32,721 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
-12:06:35,782 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,6fff71782fde4a5cbd782bb76e66663b on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:35,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:35,785 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:35,787 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:37,711 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:37,713 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:38,543 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:38,548 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:39,533 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:39,537 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:40,383 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:40,386 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:41,221 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:41,224 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:42,064 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:42,067 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:42,904 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:42,907 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:43,756 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:43,759 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:44,658 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:44,663 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:45,830 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:45,833 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:46,649 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:46,651 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:47,588 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:47,591 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:49,151 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:49,154 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:49,988 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:49,991 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:50,821 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:50,823 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:51,670 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:51,673 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:52,525 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:52,528 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:53,367 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:53,369 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:54,208 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:54,211 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:55,971 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:55,973 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:56,806 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:56,809 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:58,255 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:58,259 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:59,101 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:59,104 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:59,989 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:06:59,991 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:00,813 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:00,816 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:01,634 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:01,638 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_30] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:02,484 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:02,488 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:03,325 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:03,329 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_30] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:04,164 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:04,166 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:04,994 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:04,998 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:05,831 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:05,833 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary Test_SNF_ECMS_30] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:06,667 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:06,669 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:07,501 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:07,504 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:08,420 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:08,425 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:09,263 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:09,266 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Content Test_SNF_ECMS_30] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:10,093 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:10,099 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:10,935 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:10,938 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:11,828 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:11,831 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:12,715 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:15,720 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:16,579 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:16,581 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:17,419 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:17,421 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Vote, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:18,276 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:18,279 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Vote, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:19,185 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:19,187 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UIVoteForm']/div/div/div/div[5], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:20,019 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:20,024 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UIVoteForm']/div/div/div/div[5], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:20,864 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:20,867 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Avg. Rating: ']/following-sibling::div[text()='5.0'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:22,289 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:22,292 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Avg. Rating: ']/following-sibling::div[text()='5.0'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:23,163 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:23,167 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Votes: ']/following-sibling::div[text()='1'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:24,003 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:24,007 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Votes: ']/following-sibling::div[text()='1'], ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:24,841 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:24,844 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_30, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:25,685 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:25,688 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_30, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:26,606 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:26,609 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:27,439 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:27,442 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:28,291 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:28,293 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:29,193 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:29,197 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:30,059 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:30,062 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:32,259 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:32,262 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:33,107 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:33,110 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:34,241 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:34,243 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session 6fff71782fde4a5cbd782bb76e66663b
-12:07:34,243 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
-12:07:34,265 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session 6fff71782fde4a5cbd782bb76e66663b
+(firefox-bin:6329): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+14:27:11,847 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Launching Firefox...
+14:27:14,982 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,b9650a72157742ddaf76b0ecfa05b8c5 on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:14,985 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: setSpeed[800, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:14,985 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:14,987 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: open[/portal/public/acme/, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:16,887 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:16,891 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: windowMaximize[, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:17,710 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:17,716 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Login, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:18,529 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:18,533 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Login, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:19,531 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:19,533 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[username, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:20,370 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:20,374 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[username, root] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:21,222 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:21,225 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[password, gtn] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:22,054 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:22,057 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sign in, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:22,899 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:22,902 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sign in, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:23,805 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:23,809 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:24,921 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:24,923 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Explorer, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:25,741 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:25,745 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Explorer, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:26,604 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:26,606 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:28,184 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:28,186 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//a[@title= 'Show Drives'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:29,015 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:29,019 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//a[@title= 'Show Drives'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:29,852 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:29,854 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Sites Management, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:30,697 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:30,701 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Sites Management, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:31,559 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:31,561 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[css=a[title="acme "], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:32,394 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:32,396 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[css=a[title="acme "], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:33,240 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:33,244 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=New Content, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:35,102 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:35,104 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=New Content, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:35,948 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:35,951 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@title='Article'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:37,333 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:37,336 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@title='Article'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:38,184 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:38,187 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:39,034 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:39,036 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[id=title, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:39,858 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:39,862 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=title, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:40,678 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:40,681 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=title, Test_SNF_ECMS_30] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:41,529 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:41,532 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[id=name, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:42,372 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:42,377 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[id=name, Test_SNF_ECMS_30] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:43,215 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:43,217 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_summary']/iframe, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:44,057 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:44,062 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_summary']/iframe, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:44,895 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:44,899 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Summary Test_SNF_ECMS_30] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:45,728 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:45,731 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:46,555 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:46,557 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//td[@id='cke_contents_content']/iframe, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:47,473 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:47,476 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[//td[@id='cke_contents_content']/iframe, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:48,294 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:48,298 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: type[//html/body, Content Test_SNF_ECMS_30] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:49,129 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:49,132 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: selectFrame[relative=top, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:49,967 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:49,969 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Save & Close, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:50,860 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:50,863 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Save & Close, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:51,765 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:54,769 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Collaboration, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:55,618 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:55,620 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Collaboration, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:56,473 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:56,476 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Vote, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:57,317 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:57,320 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Vote, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:58,224 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:58,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[@id='UIVoteForm']/div/div/div/div[5], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:59,085 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:59,089 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[//div[@id='UIVoteForm']/div/div/div/div[5], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:59,954 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:27:59,958 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Avg. Rating: ']/following-sibling::div[text()='5.0'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:01,356 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:01,359 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Avg. Rating: ']/following-sibling::div[text()='5.0'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:02,229 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:02,233 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Votes: ']/following-sibling::div[text()='1'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:03,063 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:03,068 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[//div[text()='Votes: ']/following-sibling::div[text()='1'], ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:03,890 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:03,894 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Test_SNF_ECMS_30, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:04,730 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:04,732 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: mouseDownRight[link=Test_SNF_ECMS_30, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:05,639 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:05,641 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Delete, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:06,485 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:06,488 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Delete, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:07,333 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:07,335 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=OK, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:08,224 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:08,227 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=OK, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:09,080 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:09,082 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: isElementPresent[link=Logout, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:11,362 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK,true on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:11,365 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: click[link=Logout, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:12,212 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:12,215 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: waitForPageToLoad[90000, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:13,422 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:13,424 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Command request: testComplete[, ] on session b9650a72157742ddaf76b0ecfa05b8c5
+14:28:13,425 INFO  [org.openqa.selenium.server.browserlaunchers.FirefoxChromeLauncher] Killing Firefox...
+14:28:13,451 INFO  [org.openqa.selenium.server.SeleniumDriverResourceHandler] Got result: OK on session b9650a72157742ddaf76b0ecfa05b8c5
